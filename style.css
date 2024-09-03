@@ -22,7 +22,7 @@ body {
     line-height: var(--bs-body-line-height);
     color: var(--bs-body-color);
     text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-bg);
+    background-color: rgb(32, 35, 32);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
@@ -121,4 +121,7 @@ body {
 }
 *, ::after, ::before {
     box-sizing: border-box;
+}
+.rounded-1{
+    border-radius: 1rem;
 }
