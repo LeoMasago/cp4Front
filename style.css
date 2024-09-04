@@ -137,4 +137,18 @@ body {
     border-color: rgb(0, 191, 0);
     color:  rgb(0, 191, 0);
 }
+.conteudo-home-column{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.conteudo-home-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.counteudo-home-texto{
+    color: whitesmoke;
+    font-size: large;
+}
 
