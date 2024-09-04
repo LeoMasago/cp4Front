@@ -133,3 +133,8 @@ body {
 .logo{
     max-width: 50px;
 }
+
+.detalhes-logo {
+    height: 50px;
+    width: 50px;
+}
