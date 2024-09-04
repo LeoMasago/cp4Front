@@ -1,18 +1,336 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eco Trend</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Eco Trend</title>
 </head>
+
 <body>
-    teste
+    <header class="p-3 text-bg-dark">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <img src="img/logo.png" class="detalhes-logo">
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Contato</a></li>
+                    <li><a href="categorias.html" class="nav-link px-2 text-white">Categorias</a></li>
+                    <li><a href="detalhes.html" class="nav-link px-2 text-white">Detalhes</a></li>
+                </ul>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                  </svg>
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+                        aria-label="Search">
+                </form>
+            </div>
+    </header>
+    
+    <div class="container text-justify mt-5">
+        <div class="row rounded">
+          <div class="col rounded-1 mr-4 mb-4 mt-4">
+            <h1 style="color: rgb(160, 51, 62);">Produtos para Casa</h1>
+          </div>
+        </div>
+        <main class="container mt-5">
+            <section id="produto1" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://store.ecoaliza.com.br/wp-content/uploads/2024/05/Design-sem-nome-11-1-441x441.png" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Kit Limpeza EcoLuxe</h1>
+                        <p class="text-muted">Marca: Desembala</p>
+                        <p class="price">R$ 69,99</p>
+                        <p class="description">O Kit Limpeza EcoLuxe oferece uma solução completa para a limpeza sustentável da sua casa. Inclui frasco spray perfeito para limpezas rápidas do dia a dia, uma solução aromatizante natural para refrescar o ambiente com fragrâncias suaves e um pano de limpeza feito de esponja sustentável, ideal para uma limpeza eficaz sem o uso de plásticos.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto2" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://store.ecoaliza.com.br/wp-content/uploads/2024/05/Design-sem-nome-1-441x441.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Desengordurante EcoClean</h1>
+                        <p class="text-muted">Marca: Desembala</p>
+                        <p class="price">R$ 49,90</p>
+                        <p class="description">O Desengordurante EcoClean remove a gordura de forma eficaz com ingredientes naturais e embalagem reciclável. Ideal para limpar superfícies de cozinha e utensílios, sem químicos agressivos e com fórmula biodegradável.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto3" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://store.ecoaliza.com.br/wp-content/uploads/2024/06/15199696312_home20spray20lavanda-2-441x441.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Home Spray Herbia </h1>
+                        <p class="text-muted">Marca: Herbia</p>
+                        <p class="price">R$ 49,90</p>
+                        <p class="description">O Home Spray Herbia traz frescor natural para sua casa com uma fórmula à base de óleos essenciais. Elimina odores e refresca o ambiente sem produtos químicos agressivos, em embalagem reciclável.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto4" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://store.ecoaliza.com.br/wp-content/uploads/2023/10/MG_3375-300x300.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Caneca EcoGlass #1</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 29,90</p>
+                        <p class="description">A Caneca EcoGlass é feita de vidro reciclado de alta qualidade, perfeita para bebidas quentes e frias. Elegante e durável, com design moderno e tampa de silicone reutilizável.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto5" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://store.ecoaliza.com.br/wp-content/uploads/2023/10/MG_3379-300x300.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Caneca EcoGlass #2</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 29,90</p>
+                        <p class="description">A Caneca EcoGlass é feita de cerâmica sustentável com acabamento livre de tintas tóxicas. Ideal para o dia a dia, oferece um toque sofisticado e é fácil de lavar, com design que evita derramamentos.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto6" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://store.ecoaliza.com.br/wp-content/uploads/2021/09/Cumbuca-tigela-bowl-De-Coco-Natural-400x400.jpg " alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Cumbuca CocoEco</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 39,90</p>
+                        <p class="description">A Cumbuca CocoEco é feita de casca de coco 100% natural, perfeita para servir comidas e bebidas. Sustentável e biodegradável, com um design único que destaca a beleza natural do coco.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+    </div>
+    <div class="container text-justify mt-5">
+        <div class="row rounded">
+          <div class="col rounded-1 mr-4 mb-4 mt-4">
+            <h1 style="color: rgb(160, 51, 62);">Roupas e Acessórios</h1>
+          </div>
+        </div>
+        <main class="container mt-5">
+            <section id="produto7" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://store.ecoaliza.com.br/wp-content/uploads/2020/09/20200625_211443-300x300.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Bolsa EcoChic #1</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 129,99</p>
+                        <p class="description">A Bolsa EcoChic é feita de materiais reciclados e ecológicos, com um design elegante e funcional. Ideal para o uso diário, combina estilo e sustentabilidade, com compartimentos práticos e fecho seguro.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto8" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://store.ecoaliza.com.br/wp-content/uploads/2020/09/IMG_20200309_1922571091531366361406000-scaled-300x300.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Bolsa EcoChic #2</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 159,90</p>
+                        <p class="description">A Bolsa EcoChic é feita de materiais reciclados e sustentáveis, com uma alça única para maior conforto e praticidade. Ideal para o uso diário, combina design moderno com responsabilidade ambiental.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto9" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://store.ecoaliza.com.br/wp-content/uploads/2020/09/IMG_20200309_1908506027091149090513194-1-scaled-300x300.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Bolsa EcoChic #3</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 49,90</p>
+                        <p class="description">A Bolsa EcoFeminina é feita de materiais reciclados e veganos, oferecendo um design sofisticado e funcional. Com compartimentos organizadores e alças ajustáveis, é ideal para o dia a dia, unindo estilo e sustentabilidade.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto10" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://static.wixstatic.com/media/3042b8_96d6c2cf3bf54c8781ab7899200e3efa~mv2_d_3265_4928_s_4_2.jpg/v1/fill/w_348,h_525,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3042b8_96d6c2cf3bf54c8781ab7899200e3efa~mv2_d_3265_4928_s_4_2.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Blusa Feminina EcoWhite</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 89,90</p>
+                        <p class="description">A Blusa EcoWhite é confeccionada com algodão orgânico, proporcionando conforto e frescor. Com um design clássico e corte moderno, é ideal para qualquer ocasião, mantendo o compromisso com a moda sustentável.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto11" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://static.wixstatic.com/media/3042b8_47e781b7dc024c25a868024bb8c7c86f~mv2_d_3265_4928_s_4_2.jpg/v1/fill/w_348,h_525,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3042b8_47e781b7dc024c25a868024bb8c7c86f~mv2_d_3265_4928_s_4_2.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Blusa Feminina EcoGray</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 89,90</p>
+                        <p class="description">A Blusa EcoGray é feita de malha de algodão reciclado, combinando estilo e conforto. Com um tom cinza neutro e design minimalista, é perfeita para compor looks casuais e sofisticados, mantendo o compromisso com a sustentabilidade.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto12" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://static.wixstatic.com/media/3042b8_001130ba21444b8086315e81b2793019~mv2_d_3265_4928_s_4_2.jpg/v1/fill/w_348,h_525,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3042b8_001130ba21444b8086315e81b2793019~mv2_d_3265_4928_s_4_2.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Blusa Feminina EcoBlue</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 99,90</p>
+                        <p class="description">A Blusa EcoBlue é confeccionada com tecido de bambu sustentável, proporcionando um toque macio e respirável. O tom azul vibrante e o design elegante a tornam perfeita para qualquer ocasião, com um compromisso com a moda eco-friendly.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="container text-justify mt-5">
+        <div class="row rounded">
+          <div class="col rounded-1 mr-4 mb-4 mt-4">
+            <h1 style="color: rgb(160, 51, 62);">Cuidados Pessoais</h1>
+          </div>
+        </div>
+        <main class="container mt-5">
+            <section id="produto13" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://images.tcdn.com.br/img/img_prod/1102803/creme_para_maos_hidratante_nutritivo_e_anti_idade_a_base_de_oleo_de_coco_organico_premium_e_manteiga_5_1_bd66bb5d566b0e7e365c6e26a6ac8502.jpeg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Hidratante EcoNut</h1>
+                        <p class="text-muted">Marca: Arbo de Vivo</p>
+                        <p class="price">R$ 89,99</p>
+                        <p class="description">O Creme EcoNut é enriquecido com óleo de coco 100% orgânico, proporcionando hidratação intensa e nutritiva para a pele. Com uma textura leve e rápida absorção, oferece um toque suave e uma fragrância natural de coco, em embalagem reciclável e livre de aditivos químicos.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto14" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://images.tcdn.com.br/img/img_prod/1102803/mascara_capilar_para_nutricao_e_hidratacao_profunda_com_ingredientes_naturais_e_vegana_de_oleo_de_co_17_1_999bce895883e413f40235d901e15f92.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Máscara EcoHair</h1>
+                        <p class="text-muted">Marca: Arbo de Vivo</p>
+                        <p class="price">R$ 79,90</p>
+                        <p class="description">A Máscara EcoHair é formulada com ingredientes naturais, como óleo de argan e extrato de aloe vera, para proporcionar uma hidratação profunda e revitalização dos cabelos. Livre de sulfatos e parabenos, sua fórmula biodegradável vem em embalagem reciclável, promovendo cuidados capilares sustentáveis.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto15" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://images.tcdn.com.br/img/img_prod/1102803/oleo_de_coco_organico_premium_da_tailandia_para_hidratacao_e_nutricao_de_pele_e_cabelos_multiuso_100_11_1_18871281136cdc3334817fa98614c544.jpg" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Óleo CocoPura</h1>
+                        <p class="text-muted">Marca: Arbo de Vivo</p>
+                        <p class="price">R$ 59,90</p>
+                        <p class="description">O Óleo CocoPura é 100% orgânico e extravirgem, ideal para hidratação da pele e cabelos, além de ser uma alternativa saudável para cozinhar. Seu processo de extração a frio mantém todas as propriedades nutritivas do coco, com embalagem reciclável e livre de aditivos químicos.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto16" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://acdn.mitiendanube.com/stores/002/028/679/products/123-eca228d0e5f2e0267417046423716105-1024-1024.webp" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Sabonete EcoPure</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 29,90</p>
+                        <p class="description">O Sabonete EcoPure é feito com ingredientes naturais, como óleos essenciais e extratos botânicos, proporcionando uma limpeza suave e nutritiva para a pele. Com uma fórmula livre de sulfatos e embalagens biodegradáveis, oferece uma experiência de banho sustentável e refrescante.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto17" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://acdn.mitiendanube.com/stores/002/028/679/products/127-da39c5a73b234c141717046575906247-1024-1024.webp" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Sabonete Calêndula</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 29,90</p>
+                        <p class="description">O Sabonete Calêndula é formulado com ingredientes naturais e orgânicos, oferecendo uma limpeza eficaz e suave. Sua fórmula livre de parabeno e fragrâncias artificiais vem em embalagem reciclável, ideal para quem busca cuidados sustentáveis e uma pele saudável.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+            <section id="produto18" class="mb-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://acdn.mitiendanube.com/stores/002/028/679/products/165-bade8df8990cd12f1417071445650440-1024-1024.webp" alt="Produto 1" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <h1>Sabonete EcoTerra</h1>
+                        <p class="text-muted">Marca: EcoTrend</p>
+                        <p class="price">R$ 29,90</p>
+                        <p class="description">O Sabonete EcoTerra combina óleos naturais e extratos botânicos para uma limpeza profunda e delicada. Feito com ingredientes orgânicos e embalagens sustentáveis, é ideal para uma rotina de cuidados que respeita o meio ambiente.</p>
+                        <button class="btn btn-primary btn-lg">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary text-black">© 2024 Eco Trend, Inc</span>
+        </div>
+       
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mr-5">
+          <li class="ms-3"><a class="text-body-secondary mr-3" href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50"
+            style="fill:#000000;">
+            <path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+            </svg></a></li>
+    
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50"
+            style="fill:#000000;">
+            <path d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 25.832031 46 A 1.0001 1.0001 0 0 0 26.158203 46 L 31.832031 46 A 1.0001 1.0001 0 0 0 32.158203 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 33 44 L 33 30 L 36.820312 30 L 38.220703 23 L 33 23 L 33 21 C 33 20.442508 33.05305 20.398929 33.240234 20.277344 C 33.427419 20.155758 34.005822 20 35 20 L 38 20 L 38 14.369141 L 37.429688 14.097656 C 37.429688 14.097656 35.132647 13 32 13 C 29.75 13 27.901588 13.896453 26.71875 15.375 C 25.535912 16.853547 25 18.833333 25 21 L 25 23 L 22 23 L 22 30 L 25 30 L 25 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 32 15 C 34.079062 15 35.38736 15.458455 36 15.701172 L 36 18 L 35 18 C 33.849178 18 32.926956 18.0952 32.150391 18.599609 C 31.373826 19.104024 31 20.061492 31 21 L 31 25 L 35.779297 25 L 35.179688 28 L 31 28 L 31 44 L 27 44 L 27 28 L 24 28 L 24 25 L 27 25 L 27 21 C 27 19.166667 27.464088 17.646453 28.28125 16.625 C 29.098412 15.603547 30.25 15 32 15 z"></path>
+            </svg></a></li>
+        </ul>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
 </html>
