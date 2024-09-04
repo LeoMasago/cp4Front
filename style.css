@@ -125,3 +125,8 @@ body {
 .rounded-1{
     border-radius: 1rem;
 }
+
+.imagens{
+    height: 600px;
+    width: 100px;
+}
