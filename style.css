@@ -133,3 +133,8 @@ body {
 .logo{
     max-width: 50px;
 }
+.btn {
+    border-color: rgb(0, 191, 0);
+    color:  rgb(0, 191, 0);
+}
+
