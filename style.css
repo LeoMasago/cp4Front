@@ -130,3 +130,6 @@ body {
     height: 600px;
     width: 100px;
 }
+.logo{
+    max-width: 50px;
+}
