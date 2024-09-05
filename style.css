@@ -186,3 +186,7 @@ body {
 .btn-custom:hover {
     background-color: #e68f8f;
 }
+.detalhes-logo {
+    height: 50px;
+    width: 50px;
+}
